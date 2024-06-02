@@ -35,7 +35,7 @@
          </cursor></Button>
       <VBox id="vbox" fx:id="vbox" depthTest="ENABLE" layoutX="29.0" layoutY="83.0" prefHeight="255.0" prefWidth="175.0" style="-fx-border-width: 5; -fx-padding: 5; -fx-border-radius: 10; -fx-border-color: #00BFFF; -fx-background-color: #7B68EE; -fx-background-radius: 15;">
          <children>
-            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Listar Equipamentos">
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" onAction="#buttonListarEquipament" text="Listar Equipamentos">
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin>
@@ -43,7 +43,7 @@
                   <Insets />
                </opaqueInsets>
             </Button>
-            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minWidth="150.0" mnemonicParsing="false" text="Reservar Equipamentos">
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minWidth="150.0" mnemonicParsing="false" onAction="#buttonReservar" text="Reservar Equipamentos">
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin>
@@ -51,21 +51,21 @@
                   <Insets />
                </opaqueInsets>
             </Button>
-            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Listar Reserva">
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" onAction="#buttonListarReservas" text="Listar Reserva">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin></Button>
-            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Zerar Reservas">
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" onAction="#buttonZerarReservas" text="Zerar Reservas">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
                <VBox.margin>
                   <Insets bottom="10.0" />
                </VBox.margin></Button>
-            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Adicionar Equipamento">
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" onAction="#buttonAdicionarEquipamentos" text="Adicionar Equipamento">
                <opaqueInsets>
                   <Insets />
                </opaqueInsets>
