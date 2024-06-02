@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="421.0" prefWidth="731.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.demo.HelloController">
+   <children>
+     <Button fx:id="btn" blendMode="DARKEN" ellipsisString="" layoutX="232.0" layoutY="229.0" mnemonicParsing="false" onAction="#onHelloButtonClick" text="Hello!" AnchorPane.rightAnchor="103.0">
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <cursor>
+            <Cursor fx:constant="DEFAULT" />
+         </cursor></Button>
+      <VBox id="vbox" fx:id="vbox" depthTest="ENABLE" layoutX="29.0" layoutY="83.0" prefHeight="255.0" prefWidth="175.0" style="-fx-border-width: 5; -fx-padding: 5; -fx-border-radius: 10; -fx-border-color: #00BFFF; -fx-background-color: #7B68EE; -fx-background-radius: 15;" AnchorPane.bottomAnchor="96.0" AnchorPane.leftAnchor="29.0" AnchorPane.rightAnchor="527.0" AnchorPane.topAnchor="83.0">
+         <children>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Listar Equipamentos">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minWidth="150.0" mnemonicParsing="false" text="Reservar Equipamentos">
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Button>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Listar Reserva">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Zerar Reservas">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Adicionar Equipamento">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+            <Button cache="true" cacheHint="QUALITY" depthTest="ENABLE" minHeight="30.0" minWidth="150.0" mnemonicParsing="false" text="Sair">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="10.0" />
+               </VBox.margin></Button>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+      </VBox>
+      <Label layoutX="20.0" layoutY="24.0" prefHeight="34.0" prefWidth="693.0" style="-fx-background-color: #7B68EE;" text="Sistema de Gerenciamento do Colégio">
+         <font>
+            <Font size="23.0" />
+         </font>
+         <padding>
+            <Insets left="100.0" />
+         </padding>
+      </Label>
+   </children>
+</AnchorPane>
